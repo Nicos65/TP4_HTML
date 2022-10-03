@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to top, #CCDAE0, #EDF2F4);
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+}
+
+.banniere {
+    width: 800px;
+    height: 200px;
+}
+
+h1 {
+    color: #EF233C;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: wavy;
+}
+
+h3 {
+    color: #2B2D42;
+    font-size: 30px;
+    text-decoration: wavy;
+    text-decoration: underline dotted;
+}
+
+article {
+    border: 1px solid black;
+}
+
+article div {
+    text-align: center;
+}
+
+.img {
+    border: 2px solid #8D99AE;
+    width: 200px;
+    height: 100px;
+}
+
+footer {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #D90429;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: #2B2D42;
+}

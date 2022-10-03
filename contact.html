@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TP4 HTML CONTACT</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="banniere" src="banniere.jpg">
+        </div>
+        <h1>Je sui un Gros titre</h1>
+        <nav>
+            <ul>
+                <li><a class="menu" href="index.html">Accueil</a></li>
+                <li><a class="menu" href="#ancre_1">Blog</a></li>
+                <li><a class="menu" href="">Gallerie</a></li>
+                <li><a class="menu" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form method="post" action="oulala.php">
+        <fieldset>
+            <legend>je suis une legende de fieldset
+            </legend>
+            <div>
+                <label for="input1">Nom :</label>
+                <input type="text" id="input1" placeholder="Ex : Nom" min="2" max="20">
+                <div>
+                    <label for="input2">Email :</label>
+                    <input type="email" id="input2" placeholder="Ex : Email">
+                </div>
+                <div>
+                    <div>
+                        <label for="input3">Commentaire :</label>
+                    </div>
+                    <textarea type="text" id="input3" placeholder="Ex : laissez un commentaire" rows="10"
+                        cols="70"></textarea>
+                </div>
+                <div>
+                    <label for="input4">checkbox :</label>
+                    <input type="checkbox" checked id="input4">
+                </div>
+                <input type="submit" id="input5" value="submit">
+                <input type="submit" id="input6" value="reset">
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <ul>
+            <li><a href="ici.html">ici</a></li>
+            <li><a href="la.html">la</a></li>
+            <li><a href="lu.html">lu</a></li>
+            <li><a href="li.html">li</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
